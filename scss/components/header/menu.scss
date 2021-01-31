@@ -105,6 +105,12 @@
 }
 .burger{
     width: 3rem;
+    position: relative;
+    transition: 0.4s ease;
+}
+.burger.cliced{
+    transition: 0.4s ease;
+    left:20%;
 }
 .bur-c{
     font-size: 3rem;

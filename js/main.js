@@ -63,3 +63,13 @@ tabs.tabView();
 // tab2.hideTabContent();
 // tab2.showTabContent();
 // tab2.tabView();
+
+const menu = document.querySelector('.burger');
+const slideM = document.querySelector('.slide-menu');
+const page = document.querySelector('.page');
+
+menu.addEventListener('click', () =>{
+  slideM.classList.toggle('active');
+  page.classList.toggle('active');
+  menu.classList.toggle('cliced');
+})
