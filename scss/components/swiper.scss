@@ -1,0 +1,82 @@
+.swiper-container{
+    width: 100%;
+    height: 100vh;
+    @media screen and(max-width:700px) {
+        height: 70vh;
+    }
+}
+.swiper-slide{
+   
+    position: relative;
+    
+}
+.bg{
+    &::after{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top:0;
+        left:0;
+        z-index: 1;
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(19,19,100,0.3) 0%, rgba(13,29,76,0.7) 19%, rgba(8,37,58,0.7) 73%, rgba(5,41,48,0.3) 100%);
+    }
+}
+.swiper-slide__img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.swiper-slide__text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:40%;
+    left:0;
+    z-index: 2;
+    color:white;
+
+    @media screen and(max-width:700px) {
+        top:30%;
+    }
+    & h2{
+        @media screen and (max-width:700px){
+            font-size: 3.5rem;
+        }
+        font-size: 4.8rem;
+    }
+    & h3{
+        @media screen and (max-width:700px){
+            font-size: 1.3rem;
+        }
+        font-size: 1.8rem;
+    }
+}
+
+
+.swiper-button-prev{
+    color:white;
+    background-color: transparent;
+    border:none;
+    width: 1rem!important;
+    padding:3rem;
+    border-radius: 0.5rem;
+
+    &:hover{
+        background: $red;
+    }
+}
+.swiper-button-next{
+    color:white;
+    background-color: transparent;
+    border:none;
+    width: 1rem!important;
+    padding:3rem;
+    border-radius: 0.5rem;
+
+    &:hover{
+        background: $red;
+    }
+}
