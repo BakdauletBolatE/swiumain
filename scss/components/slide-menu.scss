@@ -5,14 +5,14 @@
     top:0;
     left:110%;
     background-color: $dark-blue;
-    z-index: 1;
+    z-index: 1000;
     transition: 0.4s ease;
 }
 .slide-menu__row{
     width: 100%;
     list-style: none;
     color:white;
-    padding-top:8rem;
+    padding-top:10rem;
 }
 .slide-menu.active{
     transition: 0.4s ease;
@@ -27,15 +27,4 @@
 .slide-menu__item-i{
     font-size: 3.5rem;
     margin-right: 2rem;
-}
-.page{
-    position: relative;
-    left:0%;
-    transition: 0.4s ease;
-}
-.page.active{
-    position: relative;
-    left:-100%;
-    overflow: hidden;
-    transition: 0.4s ease;
 }

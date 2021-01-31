@@ -89,7 +89,7 @@
 .mob-menu{
     background-color: $dark-blue;
     position: fixed;
-    z-index: 100;
+    z-index: 1001;
     width: 100%;
     color:white;
     padding: 1.8rem 0;
@@ -107,10 +107,11 @@
     width: 3rem;
     position: relative;
     transition: 0.4s ease;
+    z-index: 1001;
+
 }
 .burger.cliced{
     transition: 0.4s ease;
-    left:20%;
 }
 .bur-c{
     font-size: 3rem;

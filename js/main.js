@@ -70,6 +70,6 @@ const page = document.querySelector('.page');
 
 menu.addEventListener('click', () =>{
   slideM.classList.toggle('active');
-  page.classList.toggle('active');
+  // page.classList.toggle('active');
   menu.classList.toggle('cliced');
 })
