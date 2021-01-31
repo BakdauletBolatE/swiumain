@@ -75,7 +75,9 @@
     justify-content: flex-start;
     align-items: center;
     & img{
-        width: 70px;
+        width: 7rem;
+        height: 7rem;
+        object-fit: cover;
         border-radius: 50%;
         margin-right: 2rem;
     }
